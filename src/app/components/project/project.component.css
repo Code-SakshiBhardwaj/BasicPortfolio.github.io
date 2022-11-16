@@ -1,0 +1,37 @@
+
+
+.content{
+padding: 0px 16px;
+display: grid;
+grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+margin-left:4% ;
+}
+
+.content mat-card{
+    width: 300px;
+    margin: 10px 10px 20px;
+    
+    
+}
+
+img{
+    height: 140px;
+    
+}
+
+@media only  screen and (max-width: 500px) {
+
+    .content{
+        padding: 0px 10px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+        margin-left:3% ;
+        }
+    .content mat-card{
+        width: 280px;
+        margin: 8px 8px 15px;
+        
+        
+    }
+}
+

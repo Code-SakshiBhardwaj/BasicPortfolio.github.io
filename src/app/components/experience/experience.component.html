@@ -1,0 +1,20 @@
+
+<div class="wrapper">
+    <div class="center-line">
+
+    </div>
+    <div class="row" *ngFor="let x of experience">
+    <section>
+        <mat-icon>star</mat-icon>
+        <div class="details">
+            <span class="title">{{x.company}}</span>
+            <br>
+            <span>{{x.duration}}</span>
+        </div>
+        <p>{{x.description}}</p>
+        <div class="bottom">
+            <a href="#">Read more</a>
+        </div>
+    </section>
+</div>
+</div>

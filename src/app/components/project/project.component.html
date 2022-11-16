@@ -1,0 +1,15 @@
+<div class="content">
+    <div *ngFor="let proj of projList">
+        <div >
+        <mat-card class="mat-elevation-z4">
+            <mat-card-header>
+                <mat-card-title>{{proj.name}}</mat-card-title>
+            </mat-card-header>
+            <img mat-card-image src="{{proj.src}}">
+            <mat-card-content>
+                <a href="{{proj.link}}">View Project</a>
+            </mat-card-content>
+        </mat-card>
+    </div>
+    </div>
+</div>
