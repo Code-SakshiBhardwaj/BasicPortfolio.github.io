@@ -9,26 +9,26 @@ export class ProjectComponent implements OnInit {
 projList=[
   {
     "name":"Imminent",
-    "src":"../../../assets/images/imminent.jpeg",
+    "src":"./assets/images/imminent.jpeg",
     "link":"https://github.com/Code-SakshiBhardwaj?tab=repositories"
   },{
   "name":"Portfolio",
-  "src":"../../../assets/images/portfolio.png",
+  "src":"./assets/images/portfolio.png",
   "link":"https://github.com/Code-SakshiBhardwaj?tab=repositories"
 },
 {
   "name":"Incentive Management",
-  "src":"../../../assets/images/IncentiveManagement.jpeg",
+  "src":"./assets/images/IncentiveManagement.jpeg",
   "link":"https://github.com/Code-SakshiBhardwaj?tab=repositories"
 },
 {
   "name":"Referral Tracker",
-  "src":"../../../assets/images/ReferralTracker.jpeg",
+  "src":"./assets/images/ReferralTracker.jpeg",
   "link":"https://github.com/Code-SakshiBhardwaj?tab=repositories"
 },
 {
   "name":"Static Portfolio",
-  "src":"../../../assets/images/static_portfolio.png",
+  "src":"./assets/images/static_portfolio.png",
   "link":"https://code-sakshibhardwaj.github.io/Sakshi-Bhardwaj.github.io/"
 },
 ]
